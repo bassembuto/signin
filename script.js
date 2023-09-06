@@ -5,7 +5,7 @@ let pro2 = prompt('من فضلك أكتب كلمة المرور');
 let email = 'bassemshanlo@gmail.com';
 let password = 12345;
 
-console.log(pro1.trim().toLowerCase() == email && pro2 == password);
+console.log(pro1.toLowerCase() == email && pro2 == password);
 
 
 if (pro1 == email && pro2 == password) {
